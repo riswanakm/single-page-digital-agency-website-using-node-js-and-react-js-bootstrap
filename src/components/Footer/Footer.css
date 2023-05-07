@@ -1,0 +1,94 @@
+footer {
+    background-color: #373737;
+    padding: 40px 95px 40px 135px;
+  }
+  .footer-logo .brand-logo {
+    color: white;
+  }
+  .footer-icon ul {
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+  }
+  .footer-icon ul li a i,
+  figcaption ul li a i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px !important;
+    font-size: calc(14px + 1vmin);
+    text-align: center;
+    color: #00acff;
+    transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
+  }
+  .footer-icon ul li a i:hover,
+  figcaption ul li a i:hover {
+    color: white !important;
+  }
+  .footer-icon ul > :first-child a i:hover,
+  figcaption ul > :first-child a i {
+    color: #00acff;
+  }
+  .footer-text {
+    color: white;
+    padding: 22px 0 35px 0;
+  }
+  footer h3 {
+    text-transform: capitalize;
+    font-size: calc(35px + 1vmin);
+    padding: 5px 0 25px 0;
+    color: white;
+  }
+  .footer-link ul li a {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: calc(10px + 0.9vmin);
+    padding-bottom: 20px;
+    display: inline-block;
+    color: white;
+  }
+  .footer-newsletter {
+    padding-left: 50px;
+  }
+  .footer-service {
+    padding-left: 50px;
+  }
+  .footer-company {
+    padding-left: 50px;
+  }
+  .footer-newsletter p {
+    color: white;
+  }
+  .footer-newsletter i {
+    /* border: 1px solid #000; */
+    padding: 11px;
+    color: white;
+    font-size: calc(12px + 1vmin);
+    background-color: #00acff;
+  }
+  .footer-newsletter form {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+  }
+  .footer-newsletter form input {
+    height: 40.4px;
+    width: 75%;
+    padding-left: 20px;
+    font-size: calc(10px + 1vmin);
+    background-color: #373737;
+    box-shadow: none;
+    border-color: #00acff;
+  }
+  .copy-right {
+    background-color: #00acff;
+    padding: 0 95px 0 135px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: calc(10px + 1vmin);
+  }
+  
